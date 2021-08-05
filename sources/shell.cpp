@@ -1,8 +1,8 @@
 #include <iostream>
 #include <algorithm>
 #include <sstream>
-#include "parser.hpp"
-#include "shell.hpp"
+#include "shell/parser.hpp"
+#include "shell/shell.hpp"
 
 #define RED_ANSI     "\x1b[91m"
 #define GREEN_ANSI   "\x1b[92m"

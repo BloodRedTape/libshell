@@ -3,8 +3,8 @@
 
 #include <vector>
 #include <string>
-#include "arg.hpp"
-#include "error.hpp"
+#include "shell/arg.hpp"
+#include "shell/error.hpp"
 
 struct Parser{
     static std::vector<std::string> ParseStatements(const std::string &statement);
